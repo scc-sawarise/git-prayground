@@ -1,10 +1,10 @@
 // reduce array to single value
-const numbers = [1, 2, 3, 4, 5];
-export const sum = numbers.reduce(
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+export const improveSum = numbers.reduce(
   (accumulator, currentValue) => accumulator + currentValue,
   0
 );
-console.log(sum); // Output: 15
+console.log(improveSum); // Output: 55
 
 // find first even number in array
 export const firstEven = numbers.find((num) => num % 2 === 0);
